@@ -20,33 +20,25 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Configure Azure Virtual MNetwrok and Virtual Machines
+- Configure Azure Virtual Network and Virtual Machines
 - Configure and Apply Network Security Groups (NSGs)
 - Inspect Network Traffic Using Wireshark
 - Verify and Monitor Azure Network Activity
 
 <h2>Actions and Observations</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+<h3>Configure Azure Virtual Network and Virtual Machines</h3>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+__Step to Demonstrate 
+1. __Create a Virtual Network(Vnet):__
+  - Log in to the Azure portal and create a new Vnet with a defined address space (10.0.0.0/16)
+  - Create subnets 
+2. __Deploy Virtual Machines(VMs):__
+   - Create two VMs in the same resource group, assigning each to one of the subnets in your VNET
+   - Ensure each VM is configured with a private IP and enable the public IP required for Remote Desktop or SSH
+3. __Enable Connectivity:__
+   - Verify the VMs can ping each other using their private IP addresses by connecting to one VM using Remote Desktop or SSH and running basic ping commands
+   - Test if the VMs can communicate without additional configurations
+4. __Document Results:__
+   - Highlight that the VMs are in the same VNet but separate subnets, showcasing basic connectivity
