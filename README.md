@@ -30,7 +30,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h3>Configure Azure Virtual Network and Virtual Machines</h3>
 
 
-__Step to Demonstrate 
+__Step to Demonstrate:__ 
 1. __Create a Virtual Network(Vnet):__
   - Log in to the Azure portal and create a new Vnet with a defined address space (10.0.0.0/16)
   - Create subnets 
