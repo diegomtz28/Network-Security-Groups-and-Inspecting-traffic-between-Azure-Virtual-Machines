@@ -45,7 +45,7 @@ __Step to Demonstrate:__
 
      **A screenshot of the "create a virtual network" page with the address soae=ce and subnet details, highlighting the configuration fields.**
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 
 <h3>Configure and Apply Network Security Groups (NSGs)</h3>
 
@@ -67,7 +67,7 @@ __Step to Demonstrate:__
        **Nsg creation. Inbound and outbound rules, COnnection testwith nsg rules, nsg flow logs**
 
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 
 <h3>Inspect Network Traffic Using Wireshark</h3>
 
@@ -88,7 +88,6 @@ __Steps to Demonstrate:__
    
 
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <h3>Verify and Monitor Azure Network Activity</h3>
 
